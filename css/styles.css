@@ -30,26 +30,29 @@ body {
     
 }
 
- 
+ h2,h3,li,p{
+   margin: 0px;
+
+ }
  .link:hover,
  .link:focus {
      color: var(--color-blue);
  }
 .conterner {
     width: 1200px;
-    display: flex;
     align-items: center
 }
 
 .section {
-    padding: 94px 94;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* Логотип */
 
 
 .logo{
         
-        margin-left: auto;
+        margin-left: 215px;
 
         font-family: 'Raleway';
         font-weight: 700;
@@ -77,11 +80,16 @@ color: var(--color-secondary);
             font-size: 14px;
             line-height: 16px;
             letter-spacing: 0.02em;
+
+            
 }
 
 
 .nav{
     display: flex;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 5px;
 }
 
 .nav-list{
@@ -178,14 +186,16 @@ color: var(--color-secondary);
 }
 
 .list-text{
+    display: flex;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 0px;
 
 }
 
 .item-text{
     margin-right: 30px;
-    margin-top: 89px;
+    
    
 }
 
@@ -195,16 +205,17 @@ color: var(--color-secondary);
     margin-right: 0px;
 }
 
-
-.robota{
-    margin-top: 94px;
+.text{
+    margin-top: 10px;
 }
 
 
 .photo{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 94px;
+    
+    
     
 }
 
@@ -227,19 +238,27 @@ color: var(--color-secondary);
 
 
 .comand-list{
+    display: flex;
 margin-left: auto;
 margin-right: auto;
-padding-bottom: 94px;
+
 }
 
 .comand-item {
-margin-right: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+background-color: var(--color-adress);
 
 }
 
 .comand-item:last-child{
     margin-right: 0px;
 }
+
+
 
 .title-team{
     font-weight: 500;
@@ -250,7 +269,20 @@ margin-right: 30px;
 }
 
 
+.text-comand {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+
+.text-comand,.title-team{
+
+    text-align: center;
+}
+
 .title{
+       margin: 0px;
+
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -267,10 +299,6 @@ margin-right: 30px;
 
 }
 
-.text-comand{
-        font-size: 16px;
-        line-height: 1.18;
-}
 
 
 /* Низ */
@@ -295,6 +323,10 @@ margin-right: 30px;
     color: var(--color-link-footer);
 }
 
+.adress{
+
+    margin-left: 215px;
+}
 
 
 /* Портфолио */
