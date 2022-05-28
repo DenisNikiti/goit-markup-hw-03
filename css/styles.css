@@ -332,6 +332,11 @@ background-color: var(--color-adress);
 /* Портфолио */
 
 .button-portfolio{
+    border-radius: 4px;
+    background: #F5F4FA;
+    border: #F5F4FA;;
+    padding: 6px 22px;
+
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -340,6 +345,19 @@ background-color: var(--color-adress);
      background-color: #F5F4FA;
      cursor: pointer;
     text-align: center;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+}
+
+.button-list-item{
+    margin-right: 8px;
+}
+
+.button-list-item:last-child{
+    margin-right: 0px;
 }
 
 .title-procets{
@@ -355,4 +373,16 @@ background-color: var(--color-adress);
     font-size: 16px;
     line-height: 1.87;
 
+}
+
+.conterner-procets{
+    flex-basis: calc(100%-30px/3);
+    margin-top: 50px;
+    display: flex;
+     flex-wrap: wrap;
+    
+}
+
+.procets-item{
+    margin-right: 30px;
 }
