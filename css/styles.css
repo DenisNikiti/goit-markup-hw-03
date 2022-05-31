@@ -168,9 +168,11 @@ color: var(--color-secondary);
   
 
   .title-banner{
+    
+     
     margin-bottom: 30px;
 
-    
+       
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -201,7 +203,11 @@ color: var(--color-secondary);
 
 }
 
-
+.container-banner{
+     margin-left: auto;
+     margin-right: auto;
+    width: 696px;
+}
 /* Main */
 
 .visually-hidden{
