@@ -42,10 +42,16 @@ h1,h2,h3,ul,p{
    margin: 0px;
 
  }
- .link:hover,
- .link:focus {
+
+
+
+ .nav-item .link:hover, 
+ .nav-item .link:focus, .contacts-item .link:hover, .contacts-item:focus, .contacts-item-footer .link:hover, .contacts-item-footer .link:focus {
      color: var(--color-blue);
  }
+
+
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -230,7 +236,7 @@ color: var(--color-secondary);
 
 
 .card-item{
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 30px;
 }
 
@@ -277,7 +283,7 @@ margin-right: 0px;
 
 
 .photo-item{
-   flex-basis: calc(100% / 3 -30px);
+   flex-basis: calc(100% / 3 - 30px);
     
 }
 
@@ -300,7 +306,7 @@ margin-right: 0px;
    
 
 .comand-item {
-    flex-basis: calc(100% / 4 -30px);
+    flex-basis: calc(100% / 4 - 30px);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
@@ -454,7 +460,7 @@ background-color: var(--color-adress);
 
 .procets-item{
      flex-basis: calc(100% / 3 - 30px);
-    margin: 15px;
+    
 }
 
 .procets-item:nth-last-child(-n+3){
@@ -470,4 +476,8 @@ background-color: var(--color-adress);
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
    
+}
+
+.link-procets{
+    text-decoration: none;
 }
