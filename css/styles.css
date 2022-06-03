@@ -423,7 +423,8 @@ background-color: var(--color-adress);
 
 .button-portfolio:hover,
 .button-portfolio:focus{
-    color: var(--color-blue);
+    color: var(--color-adress);
+    background-color: var(--color-blue);
 }
 
 .button-list {
