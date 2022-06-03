@@ -480,5 +480,6 @@ background-color: var(--color-adress);
 }
 
 .link-procets{
+    color: inherit;
     text-decoration: none;
 }
